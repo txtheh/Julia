@@ -1,6 +1,5 @@
 #ifndef DRAWINGWIDGET_H
 #define DRAWINGWIDGET_H
-
 #include <QWidget>
 
 class DrawingWidget : public QWidget
@@ -19,11 +18,9 @@ protected:
 
 private:
     int maxIterations = 50;
-
     double centerRe = 0;
     double centerIm = 0;
     double scale = 4;
-
     QPoint startPoint;
     QPoint currentPoint;
     bool selecting = false;
