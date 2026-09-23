@@ -1,0 +1,11 @@
+# Qt / CMake build
+build/
+
+# Qt Creator
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+
+# macOS
+.DS_Store
